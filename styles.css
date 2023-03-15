@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3C3744;
+}
+
+p{
+    color: #e0e6e2;
+}
+
+.content{
+    display: grid;
+    grid-template-columns:  1;
+    height: auto;
+    grid-gap: 20px;
+    grid-template-rows: repeat(2);
+}
+
+h1{
+    position: sticky;
+    left: 455px;
+    margin: 20px 10px;
+    width: fit-content;
+    text-align: center;
+    color: #e0e6e2;
+    font-weight: bold;
+    font-family: 'Oswald';
+    border-style: double dashed double;
+    border-radius: 4px;
+}
+
+canvas {
+    position: relative;
+    background: #F4F4ED;
+    background-image: url('pingpong.jpg');
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.foot{
+    width: 98%;
+    margin: auto;
+}
